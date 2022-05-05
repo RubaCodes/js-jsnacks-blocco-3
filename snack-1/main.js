@@ -3,7 +3,10 @@ let array = [];
 let sum = 0;
 
 while(sum < 50){
-    const temp = Number(prompt("inserisci un numero"));
+    let temp = Number(prompt("inserisci un numero"));
+    while(isNaN(temp)){
+        temp = Number(prompt("inserisci un numero, ho detto NUMERO"));
+    }
     array.push(temp);
     sum +=temp;
 }
