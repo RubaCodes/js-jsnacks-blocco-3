@@ -10,10 +10,9 @@ while(sum < 50){
     if(sum + temp < 50){
     array.push(temp);
     sum +=temp;
+    console.log(array,sum);
     }
     else{
         console.log(`somma maggiore di 50,inserire numero minore di ${50 - sum}`);
     }
 }
-
-console.log(array,sum);
