@@ -5,8 +5,7 @@ let sum = 0;
 while(sum < 50){
     let temp = Number(prompt("inserisci un numero"));
     while(isNaN(temp)){
-        temp = Number(prompt("inserisci un numero, ho detto NUMERO"));
-        
+        temp = Number(prompt("inserisci un numero, ho detto NUMERO"));  
     }
     sum +=temp;
     if(sum < 50){
@@ -14,8 +13,3 @@ while(sum < 50){
     }
     console.log(array,sum);
 }
-
-
-
-
-//da reimplememntare con do while
