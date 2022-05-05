@@ -7,8 +7,13 @@ while(sum < 50){
     while(isNaN(temp)){
         temp = Number(prompt("inserisci un numero, ho detto NUMERO"));
     }
+    if(sum + temp < 50){
     array.push(temp);
     sum +=temp;
+    }
+    else{
+        console.log(`somma maggiore di 50,inserire numero minore di ${50 - sum}`);
+    }
 }
 
 console.log(array,sum);
