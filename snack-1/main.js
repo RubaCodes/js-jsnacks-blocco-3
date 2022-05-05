@@ -2,7 +2,7 @@
 let array = [];
 let sum = 0;
 
-while(sum < 50){
+while(sum < 49){
     let temp = Number(prompt("inserisci un numero"));
     while(isNaN(temp)){
         temp = Number(prompt("inserisci un numero, ho detto NUMERO"));
