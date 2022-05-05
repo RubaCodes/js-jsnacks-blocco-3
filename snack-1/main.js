@@ -4,7 +4,8 @@ let sum = 0;
 
 while(sum < 50){
     const temp = Number(prompt("inserisci un numero"));
+    array.push(temp);
     sum +=temp;
 }
 
-console.log(sum)
+console.log(array,sum);
