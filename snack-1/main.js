@@ -8,11 +8,13 @@ while(sum < 49){
         temp = Number(prompt("inserisci un numero, ho detto NUMERO"));
     }
     if(sum + temp < 50){
-    array.push(temp);
-    sum +=temp;
+        array.push(temp);
+        sum +=temp;
     console.log(array,sum);
-    }
-    else{
+    }else{
         console.log(`somma maggiore di 50,inserire numero minore di ${50 - sum}`);
     }
 }
+
+
+//da reimplememntare con do while
